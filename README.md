@@ -10,13 +10,13 @@ A reactjs component that allows you to display the tezos domain associated with 
 To install, run:
 
 ```bash
-npm install @subter/tezos-domain-lookup
+npm install @subter/react-tezos-domain-lookup
 ```
 
 You can then use it in your code as follows:
 
 ```js
-import TezosDomainLookup from @subter/tezos-domain-lookup
+import TezosDomainLookup from @subter/react-tezos-domain-lookup
 
 // Your component code
 // ...
