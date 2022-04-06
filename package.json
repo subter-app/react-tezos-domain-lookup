@@ -1,6 +1,6 @@
 {
   "name": "@subter/react-tezos-domain-lookup",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "A reactjs component that allows you to display the tezos domain associated with an address.",
   "main": "dist/index.cjs.js",
   "scripts": {
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/subter-app/react-tezos-domain-lookup.git"
   },
-  "keywords": ["tezos", "domain", "lookup", "blockchain"],
+  "keywords": [
+    "tezos",
+    "domain",
+    "lookup",
+    "blockchain"
+  ],
   "author": "Mithun Kamath",
   "license": "MIT",
   "bugs": {
