@@ -2,24 +2,39 @@
   "name": "@subter/react-tezos-domain-lookup",
   "version": "1.2.0",
   "description": "A reactjs component that allows you to display the tezos domain associated with an address.",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/subter-app/react-tezos-domain-lookup.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["tezos", "domain", "lookup", "blockchain"],
+  "author": "Mithun Kamath",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/subter-app/react-tezos-domain-lookup/issues"
   },
   "homepage": "https://github.com/subter-app/react-tezos-domain-lookup#readme",
   "dependencies": {
+    "@babel/runtime": "^7.17.8",
     "@taquito/taquito": "^12.0.0",
     "@taquito/utils": "^12.0.0",
     "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@rollup/plugin-babel": "^5.3.1",
+    "rollup": "^2.70.1",
+    "rollup-plugin-sourcemaps": "^0.6.3"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
   }
 }
