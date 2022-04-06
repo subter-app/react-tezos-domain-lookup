@@ -1,6 +1,6 @@
 {
   "name": "@subter/react-tezos-domain-lookup",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A reactjs component that allows you to display the tezos domain associated with an address.",
   "main": "index.js",
   "scripts": {
