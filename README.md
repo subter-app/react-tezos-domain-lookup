@@ -16,7 +16,7 @@ npm install @subter/react-tezos-domain-lookup
 You can then use it in your code as follows:
 
 ```js
-import TezosDomainLookup from @subter/react-tezos-domain-lookup
+import TezosDomainLookup from "@subter/react-tezos-domain-lookup"
 
 // Your component code
 // ...

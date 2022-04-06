@@ -28,7 +28,7 @@ function TezosDomainLookup ({ address, network, className }) {
       try {
         const Tezos = new TezosToolkit(config.url);
         const contract = await Tezos.wallet.at(config.contractAddress);
-        const storage: any = await contract.storage();
+        const storage = await contract.storage();
         const domain = await storage.store.reverse_records.get(address);
 
         if (domain) {
